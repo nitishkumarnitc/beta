@@ -1,0 +1,12 @@
+.card{
+	width: 400px;
+	height:400px;
+	background-color:#ffffff;
+	box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+	border-radius: 0.375rem; 
+    transition: all 0.3s ease;
+}
+
+.card:hover{
+	box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.2);
+}
