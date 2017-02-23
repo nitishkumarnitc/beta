@@ -5,6 +5,10 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import {AppRoutingModule} from "./app-routing.module";
 import {SharedModule} from './shared/shared.module';
+import 'hammerjs';
+import {MaterialModule} from "@angular/material";
+import {ProfileModule} from "./teacher/profile/index";
+
 
 @NgModule({
   declarations: [
@@ -15,7 +19,9 @@ import {SharedModule} from './shared/shared.module';
     FormsModule,
     HttpModule,
     AppRoutingModule,
-    SharedModule
+    SharedModule,
+    MaterialModule,
+    ProfileModule
   ],
   providers: [],
   bootstrap: [AppComponent]
